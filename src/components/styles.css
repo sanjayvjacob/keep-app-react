@@ -15,16 +15,23 @@ body {
 }
 
 header {
+  display: flex;
   background-color: #f5ba13;
   margin: auto -16px;
   padding: 16px 32px;
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
 }
 
+img{
+  width: 30px;
+  margin-right: 10px;
+}
+
 header h1 {
   color: #fff;
   font-family: "Roboto", sans-serif;
-  font-weight: 400;
+  font-weight: 300;
+  font-size: 30px;
 }
 
 footer {
